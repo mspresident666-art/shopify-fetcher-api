@@ -1,25 +1,42 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from contextlib import asynccontextmanager
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
+import asyncio
 
-from routers import health, discover, fetch, bulk, view, search
+from routers import health, discover, fetch, bulk, view, search, crawl
+from core.database import init_db
+from core.crawler import auto_crawl_on_startup
 
 # ── Rate limiter setup ────────────────────────────────────────────────────────
 limiter = Limiter(key_func=get_remote_address, default_limits=["60/minute"])
+
+
+# ── Startup / Shutdown ────────────────────────────────────────────────────────
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Initialize database tables
+    await init_db()
+    # Start background crawl of curated stores (non-blocking)
+    asyncio.create_task(auto_crawl_on_startup())
+    yield
+
 
 # ── FastAPI app ───────────────────────────────────────────────────────────────
 app = FastAPI(
     title="SYF — Shopify Product Fetcher API",
     description=(
         "Public Bulk API for fetching products from any Shopify store. "
-        "Supports filtering by price, availability, sale status, and more."
+        "Supports filtering by price, availability, sale status, and more. "
+        "Includes a product database for instant indexed search across thousands of stores."
     ),
-    version="1.0.0",
+    version="2.0.0",
     docs_url="/docs",
     redoc_url="/redoc",
+    lifespan=lifespan,
 )
 
 # ── Attach rate limiter ───────────────────────────────────────────────────────
@@ -42,6 +59,7 @@ app.include_router(fetch.router, prefix="/api/v1", tags=["Fetch"])
 app.include_router(bulk.router, prefix="/api/v1", tags=["Bulk"])
 app.include_router(view.router, prefix="/api/v1", tags=["View"])
 app.include_router(search.router, prefix="/api/v1", tags=["Search"])
+app.include_router(crawl.router, prefix="/api/v1", tags=["Crawl"])
 
 
 # ── Root redirect ─────────────────────────────────────────────────────────────
@@ -49,17 +67,10 @@ app.include_router(search.router, prefix="/api/v1", tags=["Search"])
 async def root():
     return JSONResponse({
         "name": "SYF — Shopify Product Fetcher API",
-        "version": "1.0.0",
+        "version": "2.0.0",
         "docs": "/docs",
         "health": "/api/v1/health",
-        "endpoints": [
-            "GET  /api/v1/health",
-            "GET  /api/v1/discover",
-            "GET  /api/v1/fetch?url=store.myshopify.com",
-            "POST /api/v1/fetch",
-            "GET  /api/v1/bulk?category=fashion",
-            "POST /api/v1/bulk",
-        ]
+        "crawl_status": "/api/v1/crawl/status",
     })
 
 

@@ -9,6 +9,7 @@ from core.fetcher import fetch_multiple_stores
 from core.filters import filter_products, sort_products, get_cheapest_price
 from core.formatter import format_product
 from core.discovery import discover_stores_for_keyword
+from core.database import search_products_db, DATABASE_URL
 
 router = APIRouter()
 
@@ -89,7 +90,40 @@ async def _do_search(
 
     t_start = time.time()
 
-    # Load curated stores
+    # ─── MODE 1: Database search (fast, indexed) ─────────────────────────────
+    if DATABASE_URL and not category:
+        try:
+            db_products, db_total = await search_products_db(
+                keyword=keyword,
+                min_price=min_price,
+                max_price=max_price,
+                available_only=available_only,
+                on_sale=on_sale,
+                sort=sort,
+                limit=limit,
+                per_store_limit=per_store_limit,
+            )
+            if db_products:
+                elapsed_ms = int((time.time() - t_start) * 1000)
+                prices = [p.get("price_min", 0) for p in db_products if p.get("price_min", 0) > 0]
+                return {
+                    "success": True,
+                    "keyword": keyword,
+                    "source": "database",
+                    "meta": {
+                        "total_indexed_matches": db_total,
+                        "returned": len(db_products),
+                        "per_store_limit": per_store_limit,
+                        "fetch_time_ms": elapsed_ms,
+                        "cheapest": f"${min(prices):.2f}" if prices else None,
+                        "most_expensive": f"${max(prices):.2f}" if prices else None,
+                    },
+                    "products": db_products,
+                }
+        except Exception as e:
+            print(f"DB search failed, falling back to real-time: {e}")
+
+    # ─── MODE 2: Real-time fetch (fallback if no DB or no DB results) ─────────
     try:
         with open(STORES_PATH, "r", encoding="utf-8") as f:
             all_stores = json.load(f)
@@ -101,27 +135,25 @@ async def _do_search(
 
     curated_urls = set(s["url"] for s in all_stores)
 
-    # Dynamic discovery: find NEW stores on the internet for this keyword
+    # Dynamic discovery via DuckDuckGo
     discovered_urls = set()
     if dynamic_discovery and not category:
         try:
             found = await discover_stores_for_keyword(keyword, max_results=30)
-            # Only add genuinely new stores not already in curated list
             discovered_urls = set(found) - curated_urls
         except Exception:
             pass
 
-    # Combine: curated + discovered
     all_urls = list(curated_urls) + list(discovered_urls)
 
-    # Batch fetch all stores in parallel
+    # Batch fetch
     all_results = []
     for i in range(0, len(all_urls), MAX_CONCURRENT):
         batch = all_urls[i: i + MAX_CONCURRENT]
         results = await fetch_multiple_stores(batch, parallel=True)
         all_results.extend(results)
 
-    # Aggregate with per-store limit for diversity
+    # Aggregate with per-store limit
     all_products = []
     succeeded_stores = []
     failed_stores = []
@@ -149,27 +181,22 @@ async def _do_search(
             continue
 
         stores_with_results += 1
-
-        # Limit per store and sort locally first
-        filtered = sort_products(filtered, sort)
-        filtered = filtered[:per_store_limit]
+        filtered = sort_products(filtered, sort)[:per_store_limit]
 
         domain = result["domain"]
         for p in filtered:
             p["_store_url"] = result["url"]
-            formatted = format_product(p, domain)
-            all_products.append(formatted)
+            all_products.append(format_product(p, domain))
 
-    # Global sort + limit
     all_products = sort_products(all_products, sort)
     returned = all_products[:limit]
-
     elapsed_ms = int((time.time() - t_start) * 1000)
     prices = [get_cheapest_price(p) for p in returned if get_cheapest_price(p) > 0]
 
     return {
         "success": True,
         "keyword": keyword,
+        "source": "realtime",
         "meta": {
             "curated_stores": len(curated_urls),
             "discovered_stores": len(discovered_urls),
