@@ -12,7 +12,7 @@ from core.formatter import format_product
 router = APIRouter()
 
 STORES_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "stores.json")
-MAX_CONCURRENT = 30  # fetch max 30 stores at once per batch
+MAX_CONCURRENT = 50  # fetch 50 stores at once per batch
 
 
 def load_all_store_urls() -> list[str]:
@@ -108,10 +108,7 @@ async def _do_search(
         results = await fetch_multiple_stores(batch, parallel=True)
         all_results.extend(results)
 
-        # Early exit if we already have enough products
-        total_so_far = sum(len(r["products"]) for r in all_results)
-        if total_so_far > limit * 10:
-            break
+
 
     # Aggregate, filter, format
     all_products = []
