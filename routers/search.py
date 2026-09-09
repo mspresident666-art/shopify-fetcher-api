@@ -8,6 +8,7 @@ from typing import Optional
 from core.fetcher import fetch_multiple_stores
 from core.filters import filter_products, sort_products, get_cheapest_price
 from core.formatter import format_product
+from core.discovery import discover_stores_for_keyword
 
 router = APIRouter()
 
@@ -25,6 +26,7 @@ class SearchRequest(BaseModel):
     limit: int = 50
     per_store_limit: int = 3
     category: Optional[str] = None
+    dynamic_discovery: bool = True
 
 
 @router.get("/search")
@@ -38,6 +40,7 @@ async def search_get(
     limit: int = Query(50, ge=1, le=500),
     per_store: int = Query(3, ge=1, le=20, description="Max products per store"),
     category: Optional[str] = Query(None),
+    discover: bool = Query(True, description="Dynamically discover new stores via web search"),
 ):
     return await _do_search(
         keyword=q,
@@ -49,6 +52,7 @@ async def search_get(
         limit=limit,
         per_store_limit=per_store,
         category=category,
+        dynamic_discovery=discover,
     )
 
 
@@ -64,6 +68,7 @@ async def search_post(body: SearchRequest):
         limit=body.limit,
         per_store_limit=body.per_store_limit,
         category=body.category,
+        dynamic_discovery=body.dynamic_discovery,
     )
 
 
@@ -77,33 +82,46 @@ async def _do_search(
     limit: int,
     per_store_limit: int,
     category: Optional[str],
+    dynamic_discovery: bool,
 ):
     if not keyword or not keyword.strip():
         raise HTTPException(status_code=400, detail="keyword is required")
 
     t_start = time.time()
 
-    # Load stores
+    # Load curated stores
     try:
         with open(STORES_PATH, "r", encoding="utf-8") as f:
             all_stores = json.load(f)
     except Exception:
         raise HTTPException(status_code=500, detail="Could not load stores database")
 
-    # Filter by category if given
     if category:
         all_stores = [s for s in all_stores if s.get("category", "").lower() == category.lower()]
 
-    store_urls = [s["url"] for s in all_stores]
+    curated_urls = set(s["url"] for s in all_stores)
 
-    # Batch fetch all stores
+    # Dynamic discovery: find NEW stores on the internet for this keyword
+    discovered_urls = set()
+    if dynamic_discovery and not category:
+        try:
+            found = await discover_stores_for_keyword(keyword, max_results=30)
+            # Only add genuinely new stores not already in curated list
+            discovered_urls = set(found) - curated_urls
+        except Exception:
+            pass
+
+    # Combine: curated + discovered
+    all_urls = list(curated_urls) + list(discovered_urls)
+
+    # Batch fetch all stores in parallel
     all_results = []
-    for i in range(0, len(store_urls), MAX_CONCURRENT):
-        batch = store_urls[i: i + MAX_CONCURRENT]
+    for i in range(0, len(all_urls), MAX_CONCURRENT):
+        batch = all_urls[i: i + MAX_CONCURRENT]
         results = await fetch_multiple_stores(batch, parallel=True)
         all_results.extend(results)
 
-    # Aggregate with per-store limit — so results come from many different stores
+    # Aggregate with per-store limit for diversity
     all_products = []
     succeeded_stores = []
     failed_stores = []
@@ -132,7 +150,7 @@ async def _do_search(
 
         stores_with_results += 1
 
-        # Sort per-store results and cap at per_store_limit
+        # Limit per store and sort locally first
         filtered = sort_products(filtered, sort)
         filtered = filtered[:per_store_limit]
 
@@ -142,10 +160,8 @@ async def _do_search(
             formatted = format_product(p, domain)
             all_products.append(formatted)
 
-    # Sort globally across all stores
+    # Global sort + limit
     all_products = sort_products(all_products, sort)
-
-    # Apply final limit
     returned = all_products[:limit]
 
     elapsed_ms = int((time.time() - t_start) * 1000)
@@ -155,7 +171,9 @@ async def _do_search(
         "success": True,
         "keyword": keyword,
         "meta": {
-            "stores_searched": len(store_urls),
+            "curated_stores": len(curated_urls),
+            "discovered_stores": len(discovered_urls),
+            "total_stores_searched": len(all_urls),
             "stores_succeeded": len(succeeded_stores),
             "stores_with_results": stores_with_results,
             "stores_failed": len(failed_stores),
