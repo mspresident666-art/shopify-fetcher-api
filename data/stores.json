@@ -1,211 +1,3977 @@
 [
-  {"name":"32 Degrees","url":"www.32degrees.com","category":"fashion"},
-  {"name":"Allbirds","url":"allbirds.com","category":"fashion"},
-  {"name":"Gymshark","url":"gymshark.com","category":"fashion"},
-  {"name":"MVMT","url":"mvmtwatches.com","category":"fashion"},
-  {"name":"Bombas","url":"bombas.com","category":"fashion"},
-  {"name":"Chubbies","url":"chubbiesshorts.com","category":"fashion"},
-  {"name":"Taylor Stitch","url":"taylorstitch.com","category":"fashion"},
-  {"name":"Outdoor Voices","url":"outdoorvoices.com","category":"fashion"},
-  {"name":"Tentree","url":"tentree.com","category":"fashion"},
-  {"name":"American Tall","url":"americantall.com","category":"fashion"},
-  {"name":"Pact","url":"wearpact.com","category":"fashion"},
-  {"name":"Cuts Clothing","url":"cutsclothing.com","category":"fashion"},
-  {"name":"Faherty","url":"fahertybrand.com","category":"fashion"},
-  {"name":"Vuori","url":"vuoriclothing.com","category":"fashion"},
-  {"name":"Rhone","url":"rhone.com","category":"fashion"},
-  {"name":"Psycho Bunny","url":"psychobunny.com","category":"fashion"},
-  {"name":"686 Technical","url":"686.com","category":"fashion"},
-  {"name":"Herschel","url":"herschel.com","category":"fashion"},
-  {"name":"MeUndies","url":"meundies.com","category":"fashion"},
-  {"name":"Shinesty","url":"shinesty.com","category":"fashion"},
-  {"name":"Saxx","url":"saxxunderwear.com","category":"fashion"},
-  {"name":"TomboyX","url":"tomboyx.com","category":"fashion"},
-  {"name":"Represent","url":"representclo.com","category":"fashion"},
-  {"name":"Blvck Paris","url":"blvck.com","category":"fashion"},
-  {"name":"Kolossov","url":"kolossov.com","category":"fashion"},
-  {"name":"Pajar Canada","url":"pajarcanada.com","category":"fashion"},
-
-  {"name":"Backdoor Sneaker","url":"backdoorsneaker.myshopify.com","category":"sneakers"},
-  {"name":"Kicks Boomin","url":"f10h8i-wq.myshopify.com","category":"sneakers"},
-  {"name":"Kith","url":"kith.com","category":"sneakers"},
-  {"name":"Footpatrol","url":"footpatrol.com","category":"sneakers"},
-  {"name":"Slam Jam","url":"slamjam.com","category":"sneakers"},
-  {"name":"Oneness Boutique","url":"onenessboutique.com","category":"sneakers"},
-  {"name":"APB Store","url":"apbstore.com","category":"sneakers"},
-  {"name":"Lapstone Hammer","url":"lapstoneandhammer.com","category":"sneakers"},
-  {"name":"Sneaker Politics","url":"sneakerpolitics.com","category":"sneakers"},
-  {"name":"Asphaltgold","url":"asphaltgold.de","category":"sneakers"},
-  {"name":"Wethenew","url":"wethenew.com","category":"sneakers"},
-  {"name":"Extra Butter","url":"extrabutterny.com","category":"sneakers"},
-  {"name":"Packer Shoes","url":"packershoes.com","category":"sneakers"},
-  {"name":"Bodega","url":"bdgastore.com","category":"sneakers"},
-  {"name":"Concepts","url":"cncpts.com","category":"sneakers"},
-  {"name":"Livestock","url":"deadstock.ca","category":"sneakers"},
-  {"name":"Undftd","url":"undefeated.com","category":"sneakers"},
-  {"name":"Feature","url":"featuresneakerboutique.com","category":"sneakers"},
-  {"name":"Saint Alfred","url":"stalfred.com","category":"sneakers"},
-  {"name":"Proper","url":"properclothing.com","category":"sneakers"},
-  {"name":"Shoe Palace","url":"shoepalace.com","category":"sneakers"},
-  {"name":"DTLRVilla","url":"dtlr.com","category":"sneakers"},
-  {"name":"Social Status","url":"socialstatuspgh.com","category":"sneakers"},
-  {"name":"Atmos","url":"atmosusa.com","category":"sneakers"},
-  {"name":"Limited Edt","url":"limitededt.com","category":"sneakers"},
-  {"name":"Commonwealth","url":"commonwealth-ftgg.com","category":"sneakers"},
-  {"name":"Burn Rubber","url":"burnrubberdetroit.com","category":"sneakers"},
-  {"name":"Fruition","url":"fruitionlv.com","category":"sneakers"},
-  {"name":"Allike","url":"allikestore.com","category":"sneakers"},
-  {"name":"Anniversary","url":"anniversarystore.com","category":"sneakers"},
-
-  {"name":"Supreme","url":"supremenewyork.com","category":"streetwear"},
-  {"name":"Palace Skateboards","url":"palaceskateboards.com","category":"streetwear"},
-  {"name":"Anti Social Social Club","url":"antisocialsocialclub.com","category":"streetwear"},
-  {"name":"F.O.G","url":"fearofgod.com","category":"streetwear"},
-  {"name":"Carrots","url":"carrotsworldwide.com","category":"streetwear"},
-  {"name":"Chinatown Market","url":"chinatownmarket.com","category":"streetwear"},
-  {"name":"Madhappy","url":"madhappy.com","category":"streetwear"},
-  {"name":"Noah Clothing","url":"noahny.com","category":"streetwear"},
-  {"name":"Aimé Leon Dore","url":"aimeeleondore.com","category":"streetwear"},
-  {"name":"Rowing Blazers","url":"rowingblazers.com","category":"streetwear"},
-  {"name":"Pas Normal","url":"pasnormalstudios.com","category":"streetwear"},
-  {"name":"Reigning Champ","url":"reigningchamp.com","category":"streetwear"},
-  {"name":"Saturdays NYC","url":"saturdaysnyc.com","category":"streetwear"},
-  {"name":"Corridor NYC","url":"corridornyc.com","category":"streetwear"},
-  {"name":"Muttonhead","url":"muttonheadstore.com","category":"streetwear"},
-  {"name":"Stussy","url":"stussy.com","category":"streetwear"},
-  {"name":"Pleasures","url":"pleasures.us","category":"streetwear"},
-  {"name":"Brain Dead","url":"brain-dead.com","category":"streetwear"},
-  {"name":"Awake NY","url":"awakeny.com","category":"streetwear"},
-  {"name":"Market Brand","url":"market.us","category":"streetwear"},
-  {"name":"Former","url":"former.com","category":"streetwear"},
-  {"name":"Sporty Rich","url":"sporty-rich.com","category":"streetwear"},
-  {"name":"Ksubi","url":"ksubi.com","category":"streetwear"},
-  {"name":"Stampd","url":"stampd.com","category":"streetwear"},
-  {"name":"John Elliott","url":"johnelliott.co","category":"streetwear"},
-  {"name":"Rhude","url":"rhude.com","category":"streetwear"},
-  {"name":"Amiri","url":"amiri.com","category":"streetwear"},
-  {"name":"Gallery Dept","url":"gallery-dept.com","category":"streetwear"},
-  {"name":"Advisory Board Crystals","url":"advisoryboardcrystals.com","category":"streetwear"},
-  {"name":"Noon Goons","url":"noongoons.com","category":"streetwear"},
-
-  {"name":"Happy Socks","url":"happysocks.com","category":"accessories"},
-  {"name":"Stance","url":"stance.com","category":"accessories"},
-  {"name":"Socksmith","url":"socksmith.com","category":"accessories"},
-  {"name":"Darn Tough","url":"darntough.com","category":"accessories"},
-  {"name":"Silky Socks","url":"silkysocks.com","category":"accessories"},
-  {"name":"Ridge Wallet","url":"ridge.com","category":"accessories"},
-  {"name":"Pura Vida","url":"puravidabracelets.com","category":"accessories"},
-  {"name":"Tattly","url":"tattly.com","category":"accessories"},
-  {"name":"Pela Case","url":"pelacase.com","category":"accessories"},
-  {"name":"Bellroy","url":"bellroy.com","category":"accessories"},
-  {"name":"Waterfield Bags","url":"sfbags.com","category":"accessories"},
-  {"name":"Topo Designs","url":"topodesigns.com","category":"accessories"},
-  {"name":"Dagne Dover","url":"dagnedover.com","category":"accessories"},
-  {"name":"Lo & Sons","url":"loandsons.com","category":"accessories"},
-  {"name":"Moment","url":"momentlens.com","category":"accessories"},
-  {"name":"Supply Razor","url":"supply.co","category":"accessories"},
-  {"name":"Maui Jim","url":"mauijim.com","category":"accessories"},
-  {"name":"Proof Eyewear","url":"proofeyewear.com","category":"accessories"},
-
-  {"name":"Kylie Cosmetics","url":"kyliecosmetics.com","category":"beauty"},
-  {"name":"ColourPop","url":"colourpop.com","category":"beauty"},
-  {"name":"Beardbrand","url":"beardbrand.com","category":"beauty"},
-  {"name":"Morphe","url":"morphe.com","category":"beauty"},
-  {"name":"Versed Skin","url":"versedskin.com","category":"beauty"},
-  {"name":"Glow Recipe","url":"glowrecipe.com","category":"beauty"},
-  {"name":"Tatcha","url":"tatcha.com","category":"beauty"},
-  {"name":"Tower 28","url":"tower28beauty.com","category":"beauty"},
-  {"name":"Ilia Beauty","url":"iliabeauty.com","category":"beauty"},
-  {"name":"RMS Beauty","url":"rmsbeauty.com","category":"beauty"},
-  {"name":"Prose","url":"prose.com","category":"beauty"},
-  {"name":"Ceremonia","url":"ceremonia.com","category":"beauty"},
-  {"name":"Pattern Beauty","url":"patternbeauty.com","category":"beauty"},
-  {"name":"Dr. Squatch","url":"drsquatch.com","category":"beauty"},
-  {"name":"Tiege Hanley","url":"tiege.com","category":"beauty"},
-  {"name":"Ursa Major","url":"ursamajorvt.com","category":"beauty"},
-  {"name":"Blu Atlas","url":"bluatlas.com","category":"beauty"},
-  {"name":"Every Man Jack","url":"everymanjack.com","category":"beauty"},
-  {"name":"Brickell","url":"brickellmensproducts.com","category":"beauty"},
-  {"name":"Huron","url":"gethuron.com","category":"beauty"},
-  {"name":"Act+Acre","url":"actacre.com","category":"beauty"},
-  {"name":"Summer Fridays","url":"summerfridays.com","category":"beauty"},
-  {"name":"Camille Rose","url":"camillerose.com","category":"beauty"},
-
-  {"name":"Death Wish Coffee","url":"deathwishcoffee.com","category":"food"},
-  {"name":"Bulletproof","url":"bulletproof.com","category":"food"},
-  {"name":"Partake Foods","url":"partakefoods.com","category":"food"},
-  {"name":"Magic Spoon","url":"magicspoon.com","category":"food"},
-  {"name":"Olipop","url":"drinkolipop.com","category":"food"},
-  {"name":"Liquid Death","url":"liquiddeath.com","category":"food"},
-  {"name":"Ghia","url":"drinkghia.com","category":"food"},
-  {"name":"Chomps","url":"chomps.com","category":"food"},
-  {"name":"Jeni's Ice Cream","url":"jenis.com","category":"food"},
-  {"name":"OffLimits","url":"offlimitseats.com","category":"food"},
-
-  {"name":"Nomad Goods","url":"nomadgoods.com","category":"electronics"},
-  {"name":"Peak Design","url":"peakdesign.com","category":"electronics"},
-  {"name":"Grovemade","url":"grovemade.com","category":"electronics"},
-  {"name":"Twelve South","url":"twelvesouth.com","category":"electronics"},
-  {"name":"STM Bags","url":"stmbags.com","category":"electronics"},
-
-  {"name":"Shinybynature","url":"shinybynature.com","category":"fashion"},
-  {"name":"American Tall 2","url":"www.fis2run.com","category":"fashion"},
-  {"name":"Public Veil","url":"www.publicveil.com","category":"fashion"},
-  {"name":"Smartwool","url":"smartwool.com","category":"fashion"},
-  {"name":"Outdoor Research","url":"outdoorresearch.com","category":"fashion"},
-  {"name":"Club Monaco","url":"clubmonaco.com","category":"fashion"},
-  {"name":"Theory","url":"theory.com","category":"fashion"},
-  {"name":"Vince","url":"vince.com","category":"fashion"},
-  {"name":"rag & bone","url":"rag-bone.com","category":"fashion"},
-  {"name":"Todd Snyder","url":"toddsnyder.com","category":"fashion"},
-  {"name":"Buck Mason","url":"buckmason.com","category":"fashion"},
-  {"name":"Huckberry","url":"huckberry.com","category":"fashion"},
-  {"name":"Filson","url":"filson.com","category":"fashion"},
-  {"name":"Stormy Kromer","url":"stormykromer.com","category":"fashion"},
-  {"name":"Flint and Tinder","url":"flintandtinder.com","category":"fashion"},
-  {"name":"Reyn Spooner","url":"reynspooner.com","category":"fashion"},
-  {"name":"Rowan","url":"stitchfix.com","category":"fashion"},
-  {"name":"Marine Layer","url":"marinelayer.com","category":"fashion"},
-  {"name":"Faherty","url":"fahertybrand.com","category":"fashion"},
-  {"name":"Alex Mill","url":"alexmill.com","category":"fashion"},
-  {"name":"Sid Mashburn","url":"sidmashburn.com","category":"fashion"},
-  {"name":"Bonobos","url":"bonobos.com","category":"fashion"},
-  {"name":"Ledbury","url":"ledbury.com","category":"fashion"},
-  {"name":"Proper Cloth","url":"propercloth.com","category":"fashion"},
-  {"name":"Frank Dandy","url":"frankdandy.com","category":"fashion"},
-  {"name":"Mack Weldon","url":"mackweldon.com","category":"fashion"},
-  {"name":"Banana Republic","url":"bananarepublic.com","category":"fashion"},
-  {"name":"J.Crew","url":"jcrew.com","category":"fashion"},
-  {"name":"Alex and Alexa","url":"alexalexa.com","category":"fashion"},
-  {"name":"Albam","url":"albamclothing.com","category":"fashion"},
-  {"name":"General Knot","url":"generalknot.com","category":"fashion"},
-  {"name":"Courage My Love","url":"couragemylove.com","category":"fashion"},
-  {"name":"Ecco Bella","url":"eccobella.com","category":"beauty"},
-  {"name":"W3ll People","url":"w3llpeople.com","category":"beauty"},
-  {"name":"Au Naturale","url":"aunaturalecosmetics.com","category":"beauty"},
-  {"name":"Kari Gran","url":"karigran.com","category":"beauty"},
-  {"name":"Palermo Body","url":"palermobody.com","category":"beauty"},
-  {"name":"Activist Manuka","url":"activistmanuka.com","category":"beauty"},
-  {"name":"Kahina Giving Beauty","url":"kahina-givingbeauty.com","category":"beauty"},
-  {"name":"True Botanicals","url":"truebotanicals.com","category":"beauty"},
-  {"name":"Leahlani","url":"leahlani.com","category":"beauty"},
-  {"name":"Odacite","url":"odacite.com","category":"beauty"},
-  {"name":"Herbivore","url":"herbivorebotanicals.com","category":"beauty"},
-  {"name":"One Love Organics","url":"oneloveorganics.com","category":"beauty"},
-  {"name":"Pai Skincare","url":"paiskincare.com","category":"beauty"},
-  {"name":"Evolve Organic","url":"evolveorganic.com","category":"beauty"},
-  {"name":"Mukti Organics","url":"muktiorganics.com","category":"beauty"},
-  {"name":"Hive & Honey","url":"hiveandhoneybotanicals.com","category":"beauty"},
-  {"name":"Badger Balm","url":"badgerbalm.com","category":"beauty"},
-  {"name":"Raw Elements","url":"rawelementssuncare.com","category":"beauty"},
-  {"name":"Salt & Stone","url":"saltandstone.com","category":"beauty"},
-  {"name":"Disco","url":"letsdisco.co","category":"beauty"},
-  {"name":"Facetheory","url":"facetheory.com","category":"beauty"},
-  {"name":"Inkey List","url":"theinkeylist.com","category":"beauty"},
-  {"name":"Paula's Choice","url":"paulaschoice.com","category":"beauty"},
-  {"name":"Deciem","url":"deciem.com","category":"beauty"},
-  {"name":"Youth to the People","url":"youthtothepeople.com","category":"beauty"},
-  {"name":"Province Apothecary","url":"provinceapothecary.com","category":"beauty"},
-  {"name":"Farmacy","url":"farmacybeauty.com","category":"beauty"},
-  {"name":"Vintner's Daughter","url":"vintnersdaughter.com","category":"beauty"}
+  {
+    "name": "32 Degrees",
+    "url": "www.32degrees.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Allbirds",
+    "url": "allbirds.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Gymshark",
+    "url": "gymshark.com",
+    "category": "fashion"
+  },
+  {
+    "name": "MVMT",
+    "url": "mvmtwatches.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Bombas",
+    "url": "bombas.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Chubbies",
+    "url": "chubbiesshorts.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Taylor Stitch",
+    "url": "taylorstitch.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Outdoor Voices",
+    "url": "outdoorvoices.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Tentree",
+    "url": "tentree.com",
+    "category": "fashion"
+  },
+  {
+    "name": "American Tall",
+    "url": "americantall.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Pact",
+    "url": "wearpact.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Cuts Clothing",
+    "url": "cutsclothing.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Faherty",
+    "url": "fahertybrand.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Vuori",
+    "url": "vuoriclothing.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Rhone",
+    "url": "rhone.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Psycho Bunny",
+    "url": "psychobunny.com",
+    "category": "fashion"
+  },
+  {
+    "name": "686 Technical",
+    "url": "686.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Herschel",
+    "url": "herschel.com",
+    "category": "fashion"
+  },
+  {
+    "name": "MeUndies",
+    "url": "meundies.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Shinesty",
+    "url": "shinesty.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Saxx",
+    "url": "saxxunderwear.com",
+    "category": "fashion"
+  },
+  {
+    "name": "TomboyX",
+    "url": "tomboyx.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Represent",
+    "url": "representclo.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Blvck Paris",
+    "url": "blvck.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Kolossov",
+    "url": "kolossov.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Pajar Canada",
+    "url": "pajarcanada.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Backdoor Sneaker",
+    "url": "backdoorsneaker.myshopify.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Kicks Boomin",
+    "url": "f10h8i-wq.myshopify.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Kith",
+    "url": "kith.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Footpatrol",
+    "url": "footpatrol.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Slam Jam",
+    "url": "slamjam.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Oneness Boutique",
+    "url": "onenessboutique.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "APB Store",
+    "url": "apbstore.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Lapstone Hammer",
+    "url": "lapstoneandhammer.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Sneaker Politics",
+    "url": "sneakerpolitics.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Asphaltgold",
+    "url": "asphaltgold.de",
+    "category": "sneakers"
+  },
+  {
+    "name": "Wethenew",
+    "url": "wethenew.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Extra Butter",
+    "url": "extrabutterny.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Packer Shoes",
+    "url": "packershoes.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Bodega",
+    "url": "bdgastore.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Concepts",
+    "url": "cncpts.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Livestock",
+    "url": "deadstock.ca",
+    "category": "sneakers"
+  },
+  {
+    "name": "Undftd",
+    "url": "undefeated.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Feature",
+    "url": "featuresneakerboutique.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Saint Alfred",
+    "url": "stalfred.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Proper",
+    "url": "properclothing.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Shoe Palace",
+    "url": "shoepalace.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "DTLRVilla",
+    "url": "dtlr.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Social Status",
+    "url": "socialstatuspgh.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Atmos",
+    "url": "atmosusa.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Limited Edt",
+    "url": "limitededt.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Commonwealth",
+    "url": "commonwealth-ftgg.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Burn Rubber",
+    "url": "burnrubberdetroit.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Fruition",
+    "url": "fruitionlv.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Allike",
+    "url": "allikestore.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Anniversary",
+    "url": "anniversarystore.com",
+    "category": "sneakers"
+  },
+  {
+    "name": "Supreme",
+    "url": "supremenewyork.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Palace Skateboards",
+    "url": "palaceskateboards.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Anti Social Social Club",
+    "url": "antisocialsocialclub.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "F.O.G",
+    "url": "fearofgod.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Carrots",
+    "url": "carrotsworldwide.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Chinatown Market",
+    "url": "chinatownmarket.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Madhappy",
+    "url": "madhappy.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Noah Clothing",
+    "url": "noahny.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Aim\u00c3\u00a9 Leon Dore",
+    "url": "aimeeleondore.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Rowing Blazers",
+    "url": "rowingblazers.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Pas Normal",
+    "url": "pasnormalstudios.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Reigning Champ",
+    "url": "reigningchamp.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Saturdays NYC",
+    "url": "saturdaysnyc.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Corridor NYC",
+    "url": "corridornyc.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Muttonhead",
+    "url": "muttonheadstore.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Stussy",
+    "url": "stussy.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Pleasures",
+    "url": "pleasures.us",
+    "category": "streetwear"
+  },
+  {
+    "name": "Brain Dead",
+    "url": "brain-dead.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Awake NY",
+    "url": "awakeny.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Market Brand",
+    "url": "market.us",
+    "category": "streetwear"
+  },
+  {
+    "name": "Former",
+    "url": "former.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Sporty Rich",
+    "url": "sporty-rich.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Ksubi",
+    "url": "ksubi.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Stampd",
+    "url": "stampd.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "John Elliott",
+    "url": "johnelliott.co",
+    "category": "streetwear"
+  },
+  {
+    "name": "Rhude",
+    "url": "rhude.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Amiri",
+    "url": "amiri.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Gallery Dept",
+    "url": "gallery-dept.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Advisory Board Crystals",
+    "url": "advisoryboardcrystals.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Noon Goons",
+    "url": "noongoons.com",
+    "category": "streetwear"
+  },
+  {
+    "name": "Happy Socks",
+    "url": "happysocks.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Stance",
+    "url": "stance.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Socksmith",
+    "url": "socksmith.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Darn Tough",
+    "url": "darntough.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Silky Socks",
+    "url": "silkysocks.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Ridge Wallet",
+    "url": "ridge.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Pura Vida",
+    "url": "puravidabracelets.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Tattly",
+    "url": "tattly.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Pela Case",
+    "url": "pelacase.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Bellroy",
+    "url": "bellroy.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Waterfield Bags",
+    "url": "sfbags.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Topo Designs",
+    "url": "topodesigns.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Dagne Dover",
+    "url": "dagnedover.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Lo & Sons",
+    "url": "loandsons.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Moment",
+    "url": "momentlens.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Supply Razor",
+    "url": "supply.co",
+    "category": "accessories"
+  },
+  {
+    "name": "Maui Jim",
+    "url": "mauijim.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Proof Eyewear",
+    "url": "proofeyewear.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Kylie Cosmetics",
+    "url": "kyliecosmetics.com",
+    "category": "beauty"
+  },
+  {
+    "name": "ColourPop",
+    "url": "colourpop.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Beardbrand",
+    "url": "beardbrand.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Morphe",
+    "url": "morphe.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Versed Skin",
+    "url": "versedskin.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Glow Recipe",
+    "url": "glowrecipe.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Tatcha",
+    "url": "tatcha.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Tower 28",
+    "url": "tower28beauty.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Ilia Beauty",
+    "url": "iliabeauty.com",
+    "category": "beauty"
+  },
+  {
+    "name": "RMS Beauty",
+    "url": "rmsbeauty.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Prose",
+    "url": "prose.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Ceremonia",
+    "url": "ceremonia.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Pattern Beauty",
+    "url": "patternbeauty.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Dr. Squatch",
+    "url": "drsquatch.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Tiege Hanley",
+    "url": "tiege.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Ursa Major",
+    "url": "ursamajorvt.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Blu Atlas",
+    "url": "bluatlas.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Every Man Jack",
+    "url": "everymanjack.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Brickell",
+    "url": "brickellmensproducts.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Huron",
+    "url": "gethuron.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Act+Acre",
+    "url": "actacre.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Summer Fridays",
+    "url": "summerfridays.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Camille Rose",
+    "url": "camillerose.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Death Wish Coffee",
+    "url": "deathwishcoffee.com",
+    "category": "food"
+  },
+  {
+    "name": "Bulletproof",
+    "url": "bulletproof.com",
+    "category": "food"
+  },
+  {
+    "name": "Partake Foods",
+    "url": "partakefoods.com",
+    "category": "food"
+  },
+  {
+    "name": "Magic Spoon",
+    "url": "magicspoon.com",
+    "category": "food"
+  },
+  {
+    "name": "Olipop",
+    "url": "drinkolipop.com",
+    "category": "food"
+  },
+  {
+    "name": "Liquid Death",
+    "url": "liquiddeath.com",
+    "category": "food"
+  },
+  {
+    "name": "Ghia",
+    "url": "drinkghia.com",
+    "category": "food"
+  },
+  {
+    "name": "Chomps",
+    "url": "chomps.com",
+    "category": "food"
+  },
+  {
+    "name": "Jeni's Ice Cream",
+    "url": "jenis.com",
+    "category": "food"
+  },
+  {
+    "name": "OffLimits",
+    "url": "offlimitseats.com",
+    "category": "food"
+  },
+  {
+    "name": "Nomad Goods",
+    "url": "nomadgoods.com",
+    "category": "electronics"
+  },
+  {
+    "name": "Peak Design",
+    "url": "peakdesign.com",
+    "category": "electronics"
+  },
+  {
+    "name": "Grovemade",
+    "url": "grovemade.com",
+    "category": "electronics"
+  },
+  {
+    "name": "Twelve South",
+    "url": "twelvesouth.com",
+    "category": "electronics"
+  },
+  {
+    "name": "STM Bags",
+    "url": "stmbags.com",
+    "category": "electronics"
+  },
+  {
+    "name": "Shinybynature",
+    "url": "shinybynature.com",
+    "category": "fashion"
+  },
+  {
+    "name": "American Tall 2",
+    "url": "www.fis2run.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Public Veil",
+    "url": "www.publicveil.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Smartwool",
+    "url": "smartwool.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Outdoor Research",
+    "url": "outdoorresearch.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Club Monaco",
+    "url": "clubmonaco.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Theory",
+    "url": "theory.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Vince",
+    "url": "vince.com",
+    "category": "fashion"
+  },
+  {
+    "name": "rag & bone",
+    "url": "rag-bone.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Todd Snyder",
+    "url": "toddsnyder.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Buck Mason",
+    "url": "buckmason.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Huckberry",
+    "url": "huckberry.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Filson",
+    "url": "filson.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Stormy Kromer",
+    "url": "stormykromer.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Flint and Tinder",
+    "url": "flintandtinder.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Reyn Spooner",
+    "url": "reynspooner.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Rowan",
+    "url": "stitchfix.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Marine Layer",
+    "url": "marinelayer.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Faherty",
+    "url": "fahertybrand.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Alex Mill",
+    "url": "alexmill.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Sid Mashburn",
+    "url": "sidmashburn.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Bonobos",
+    "url": "bonobos.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Ledbury",
+    "url": "ledbury.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Proper Cloth",
+    "url": "propercloth.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Frank Dandy",
+    "url": "frankdandy.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Mack Weldon",
+    "url": "mackweldon.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Banana Republic",
+    "url": "bananarepublic.com",
+    "category": "fashion"
+  },
+  {
+    "name": "J.Crew",
+    "url": "jcrew.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Alex and Alexa",
+    "url": "alexalexa.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Albam",
+    "url": "albamclothing.com",
+    "category": "fashion"
+  },
+  {
+    "name": "General Knot",
+    "url": "generalknot.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Courage My Love",
+    "url": "couragemylove.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Ecco Bella",
+    "url": "eccobella.com",
+    "category": "beauty"
+  },
+  {
+    "name": "W3ll People",
+    "url": "w3llpeople.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Au Naturale",
+    "url": "aunaturalecosmetics.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Kari Gran",
+    "url": "karigran.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Palermo Body",
+    "url": "palermobody.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Activist Manuka",
+    "url": "activistmanuka.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Kahina Giving Beauty",
+    "url": "kahina-givingbeauty.com",
+    "category": "beauty"
+  },
+  {
+    "name": "True Botanicals",
+    "url": "truebotanicals.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Leahlani",
+    "url": "leahlani.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Odacite",
+    "url": "odacite.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Herbivore",
+    "url": "herbivorebotanicals.com",
+    "category": "beauty"
+  },
+  {
+    "name": "One Love Organics",
+    "url": "oneloveorganics.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Pai Skincare",
+    "url": "paiskincare.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Evolve Organic",
+    "url": "evolveorganic.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Mukti Organics",
+    "url": "muktiorganics.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Hive & Honey",
+    "url": "hiveandhoneybotanicals.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Badger Balm",
+    "url": "badgerbalm.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Raw Elements",
+    "url": "rawelementssuncare.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Salt & Stone",
+    "url": "saltandstone.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Disco",
+    "url": "letsdisco.co",
+    "category": "beauty"
+  },
+  {
+    "name": "Facetheory",
+    "url": "facetheory.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Inkey List",
+    "url": "theinkeylist.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Paula's Choice",
+    "url": "paulaschoice.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Deciem",
+    "url": "deciem.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Youth to the People",
+    "url": "youthtothepeople.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Province Apothecary",
+    "url": "provinceapothecary.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Farmacy",
+    "url": "farmacybeauty.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Vintner's Daughter",
+    "url": "vintnersdaughter.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Scribcharm",
+    "url": "scribcharm.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Blis Lingerie",
+    "url": "blis-lingerie.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Treasurebox 41",
+    "url": "treasurebox-41.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Yourturnkeystore 662",
+    "url": "yourturnkeystore-662.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Nn0Js9 Nf",
+    "url": "nn0js9-nf.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Nice N Naughty Uk",
+    "url": "nice-n-naughty-uk.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "9Marks",
+    "url": "9marks.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Self Care Shop 5",
+    "url": "self-care-shop-5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "***",
+    "url": "***.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00010Shop",
+    "url": "00010shop.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "000D7D",
+    "url": "000d7d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "001062 44",
+    "url": "001062-44.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "001915 2",
+    "url": "001915-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00246D 8E",
+    "url": "00246d-8e.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "003Cb5",
+    "url": "003cb5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00430D 6A",
+    "url": "00430d-6a.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0043E3 2",
+    "url": "0043e3-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00481C",
+    "url": "00481c.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0056A9",
+    "url": "0056a9.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00579F F5",
+    "url": "00579f-f5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "006607 2",
+    "url": "006607-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "006624 Da",
+    "url": "006624-da.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "006Fb7 C4",
+    "url": "006fb7-c4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "007253 2",
+    "url": "007253-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0072B7",
+    "url": "0072b7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "009767 A0",
+    "url": "009767-a0.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00A32C",
+    "url": "00a32c.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00A3B3",
+    "url": "00a3b3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00Acpf Dj",
+    "url": "00acpf-dj.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00B9Ee Cq",
+    "url": "00b9ee-cq.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00Bb6A Bd",
+    "url": "00bb6a-bd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00Bd23 78",
+    "url": "00bd23-78.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00Bfa9 30",
+    "url": "00bfa9-30.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00C05A 2",
+    "url": "00c05a-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00C172",
+    "url": "00c172.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00C43C 4",
+    "url": "00c43c-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00C6A1 B5",
+    "url": "00c6a1-b5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00Ce94 12",
+    "url": "00ce94-12.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00E5D4",
+    "url": "00e5d4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00Ea89 3",
+    "url": "00ea89-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00Eceb 2",
+    "url": "00eceb-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00F0Fe 4E",
+    "url": "00f0fe-4e.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00F5Ab 13",
+    "url": "00f5ab-13.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00Q7Ik I6",
+    "url": "00q7ik-i6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00Q7Rx B8",
+    "url": "00q7rx-b8.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01049B 2",
+    "url": "01049b-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "010975 2C",
+    "url": "010975-2c.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "011Bf9 19",
+    "url": "011bf9-19.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "012473",
+    "url": "012473.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01250A 3",
+    "url": "01250a-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "012715Smkr",
+    "url": "012715smkr.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0128D8 4",
+    "url": "0128d8-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "012967 3",
+    "url": "012967-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "013231 A6",
+    "url": "013231-a6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0133F8 C6",
+    "url": "0133f8-c6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "013B24",
+    "url": "013b24.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0145D6 C9",
+    "url": "0145d6-c9.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0148Ac 03",
+    "url": "0148ac-03.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "015456 Fc",
+    "url": "015456-fc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0171D6 3",
+    "url": "0171d6-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "017703 3",
+    "url": "017703-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "017Cb3",
+    "url": "017cb3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "019228 10",
+    "url": "019228-10.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "019Db1 86",
+    "url": "019db1-86.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01A67A C3",
+    "url": "01a67a-c3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01A78D 20",
+    "url": "01a78d-20.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01Ae94 2",
+    "url": "01ae94-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01Befc 2",
+    "url": "01befc-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01Bffe 82",
+    "url": "01bffe-82.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01D32D B0",
+    "url": "01d32d-b0.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01E8E8 De",
+    "url": "01e8e8-de.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01Eb14 2",
+    "url": "01eb14-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01Thebrand",
+    "url": "01thebrand.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01Uhdi 6H",
+    "url": "01uhdi-6h.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01Wmbg Gs",
+    "url": "01wmbg-gs.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "020637 2",
+    "url": "020637-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "021F19 0E",
+    "url": "021f19-0e.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "021F7F 14",
+    "url": "021f7f-14.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0222Ad F3",
+    "url": "0222ad-f3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "022E75 2",
+    "url": "022e75-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "022F1D 45",
+    "url": "022f1d-45.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "022F65 5",
+    "url": "022f65-5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "023B4F 2",
+    "url": "023b4f-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "024D6B 2",
+    "url": "024d6b-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "025E42 3F",
+    "url": "025e42-3f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02601F Cd",
+    "url": "02601f-cd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "026C8B",
+    "url": "026c8b.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "028F0D 6F",
+    "url": "028f0d-6f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0290A8 2",
+    "url": "0290a8-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "029567 2",
+    "url": "029567-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0297B7 2",
+    "url": "0297b7-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02A4D3",
+    "url": "02a4d3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02A67F",
+    "url": "02a67f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02B3Ea",
+    "url": "02b3ea.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02C02C 2",
+    "url": "02c02c-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02C8Ee 2",
+    "url": "02c8ee-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02Cd50",
+    "url": "02cd50.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02Ce1F",
+    "url": "02ce1f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02D7Db",
+    "url": "02d7db.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02Dee5 3",
+    "url": "02dee5-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02Ea68 2",
+    "url": "02ea68-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02Eeb7",
+    "url": "02eeb7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "031 Imports 4",
+    "url": "031-imports-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "031Cda C4",
+    "url": "031cda-c4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "032C Workshop",
+    "url": "032c-workshop.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03326C",
+    "url": "03326c.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0335Fc",
+    "url": "0335fc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0344F7 15",
+    "url": "0344f7-15.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "034933 2",
+    "url": "034933-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "034Fd1 Ad",
+    "url": "034fd1-ad.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03550I 0K",
+    "url": "03550i-0k.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0356Ad 3",
+    "url": "0356ad-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03585B Ed",
+    "url": "03585b-ed.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0361D9 3",
+    "url": "0361d9-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0371D8 2",
+    "url": "0371d8-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "037548 2",
+    "url": "037548-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03838D 65",
+    "url": "03838d-65.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03B31A D6",
+    "url": "03b31a-d6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03Bf52 8D",
+    "url": "03bf52-8d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03C50F E8",
+    "url": "03c50f-e8.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03D187 62",
+    "url": "03d187-62.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03E98C 2",
+    "url": "03e98c-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03F428 C1",
+    "url": "03f428-c1.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03F6Ac 3",
+    "url": "03f6ac-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03F6F2 3",
+    "url": "03f6f2-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03Fdea 5E",
+    "url": "03fdea-5e.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04 8884Aa Mol",
+    "url": "04-8884aa-mol.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "041Dee 7E",
+    "url": "041dee-7e.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "042349",
+    "url": "042349.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "043B3A 2",
+    "url": "043b3a-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "044126 F4",
+    "url": "044126-f4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0443B7",
+    "url": "0443b7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0444E8 8A",
+    "url": "0444e8-8a.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "044608 88",
+    "url": "044608-88.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "044Adc",
+    "url": "044adc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0454E1 F4",
+    "url": "0454e1-f4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "046327 F9",
+    "url": "046327-f9.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "046C9E 2",
+    "url": "046c9e-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "047C41 2",
+    "url": "047c41-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0486B5 Cc",
+    "url": "0486b5-cc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "048E83 2",
+    "url": "048e83-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "048Y4N Yk",
+    "url": "048y4n-yk.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "049389 2",
+    "url": "049389-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0493Aa 3",
+    "url": "0493aa-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04A148 B8",
+    "url": "04a148-b8.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04A9Ec E2",
+    "url": "04a9ec-e2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04Bd5F 5C",
+    "url": "04bd5f-5c.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04C11C Ab",
+    "url": "04c11c-ab.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04C1De 2",
+    "url": "04c1de-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04C2C3 34",
+    "url": "04c2c3-34.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04C959 4",
+    "url": "04c959-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04D384 C6",
+    "url": "04d384-c6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04Dht2 Xm",
+    "url": "04dht2-xm.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04E678 7",
+    "url": "04e678-7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04Eb3B Ef",
+    "url": "04eb3b-ef.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04Ecbd",
+    "url": "04ecbd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "051839 51",
+    "url": "051839-51.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "051Db3",
+    "url": "051db3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "053Af5 B9",
+    "url": "053af5-b9.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0542A5 2",
+    "url": "0542a5-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "055584 7B",
+    "url": "055584-7b.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0559Dc 3",
+    "url": "0559dc-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "056Ba6 2",
+    "url": "056ba6-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "057711",
+    "url": "057711.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05997F 7F",
+    "url": "05997f-7f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05Afd8 2",
+    "url": "05afd8-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05B092 3",
+    "url": "05b092-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05B76D 1D",
+    "url": "05b76d-1d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05B99F 20",
+    "url": "05b99f-20.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05Bf95",
+    "url": "05bf95.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05Da3B 15",
+    "url": "05da3b-15.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05Fd36 2",
+    "url": "05fd36-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05Pk6V Bj",
+    "url": "05pk6v-bj.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0600Bd",
+    "url": "0600bd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "06111F 48",
+    "url": "06111f-48.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "06180F 2",
+    "url": "06180f-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "061Eb4 2",
+    "url": "061eb4-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0624D2 Aa",
+    "url": "0624d2-aa.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "062Ba8",
+    "url": "062ba8.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "062E20 4B",
+    "url": "062e20-4b.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "063305",
+    "url": "063305.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "063C0D 9A",
+    "url": "063c0d-9a.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "064221 0B",
+    "url": "064221-0b.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "065140 3",
+    "url": "065140-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "065D67 2",
+    "url": "065d67-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "066592 2",
+    "url": "066592-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "067D67 87",
+    "url": "067d67-87.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "069694 50",
+    "url": "069694-50.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "06B102 92",
+    "url": "06b102-92.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "07147B 61",
+    "url": "07147b-61.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "072A78 59",
+    "url": "072a78-59.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "074781 3",
+    "url": "074781-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "076M01 0V",
+    "url": "076m01-0v.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "077C6D 6B",
+    "url": "077c6d-6b.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "079E5D 2",
+    "url": "079e5d-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "07Bf1E",
+    "url": "07bf1e.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "07D411 E0",
+    "url": "07d411-e0.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "07D82D",
+    "url": "07d82d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "07Jmd1 Ab",
+    "url": "07jmd1-ab.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "07Wbta Br",
+    "url": "07wbta-br.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "080Dad",
+    "url": "080dad.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "08400C 2",
+    "url": "08400c-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0850A6 Cd",
+    "url": "0850a6-cd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0885Ff 96",
+    "url": "0885ff-96.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "08D58C",
+    "url": "08d58c.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "08F2Cb",
+    "url": "08f2cb.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "091B1A E7",
+    "url": "091b1a-e7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0951B5 2",
+    "url": "0951b5-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0954Ca 2",
+    "url": "0954ca-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "097847 3",
+    "url": "097847-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "09Bd03 07",
+    "url": "09bd03-07.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A6Bb1",
+    "url": "0a6bb1.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A7D0B 3",
+    "url": "0a7d0b-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A80Ae",
+    "url": "0a80ae.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A8Fee",
+    "url": "0a8fee.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A98E4 6D",
+    "url": "0a98e4-6d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Aa2Ea",
+    "url": "0aa2ea.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Aa9Bc A6",
+    "url": "0aa9bc-a6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Aaf9D 36",
+    "url": "0aaf9d-36.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Ae820 Dc",
+    "url": "0ae820-dc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Ap9A6 1P",
+    "url": "0ap9a6-1p.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0B15C2",
+    "url": "0b15c2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0B4A66 7B",
+    "url": "0b4a66-7b.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Bc7C3",
+    "url": "0bc7c3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Bd074 D9",
+    "url": "0bd074-d9.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Bdg1B Xp",
+    "url": "0bdg1b-xp.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Be16A",
+    "url": "0be16a.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0C12D5 78",
+    "url": "0c12d5-78.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0C163A 2",
+    "url": "0c163a-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0C1C69 3",
+    "url": "0c1c69-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0C3A48 C2",
+    "url": "0c3a48-c2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0C4Da0 F6",
+    "url": "0c4da0-f6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0C4F1D 2",
+    "url": "0c4f1d-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Cm76",
+    "url": "0cm76.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Daa6B 2",
+    "url": "0daa6b-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0De061 83",
+    "url": "0de061-83.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0De90F Af",
+    "url": "0de90f-af.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Dz5Ne Ia",
+    "url": "0dz5ne-ia.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E102R A4",
+    "url": "0e102r-a4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E2895 2",
+    "url": "0e2895-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E36Ee 2",
+    "url": "0e36ee-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E7D78 4A",
+    "url": "0e7d78-4a.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E81A9 F7",
+    "url": "0e81a9-f7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Edaa7 E5",
+    "url": "0edaa7-e5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Ef557 2",
+    "url": "0ef557-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F1B3B 2",
+    "url": "0f1b3b-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F3B94",
+    "url": "0f3b94.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F52Ab",
+    "url": "0f52ab.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F5D51 68",
+    "url": "0f5d51-68.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F5E1B 8F",
+    "url": "0f5e1b-8f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F730U Sb",
+    "url": "0f730u-sb.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Fgw0P D2",
+    "url": "0fgw0p-d2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Fx8Pt U6",
+    "url": "0fx8pt-u6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Gsvtn S1",
+    "url": "0gsvtn-s1.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Gw267 Ej",
+    "url": "0gw267-ej.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0I90Z6 Zi",
+    "url": "0i90z6-zi.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Iuewz 91",
+    "url": "0iuewz-91.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Jdfiv Cq",
+    "url": "0jdfiv-cq.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Kefkm 1K",
+    "url": "0kefkm-1k.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Quu6Z 2F",
+    "url": "0quu6z-2f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Rph6T Dc",
+    "url": "0rph6t-dc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Uupf0 8Z",
+    "url": "0uupf0-8z.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Vcbdt 10",
+    "url": "0vcbdt-10.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0W8Zic Va",
+    "url": "0w8zic-va.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Zgugx S9",
+    "url": "0zgugx-s9.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Zqv18 Nd",
+    "url": "0zqv18-nd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1 866 Lit Xmas",
+    "url": "1-866-lit-xmas.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1 Bhk",
+    "url": "1-bhk.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1 Happy Girl",
+    "url": "1-happy-girl.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1 Itemisrael",
+    "url": "1-itemisrael.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1 Pcreativenergy",
+    "url": "1-pcreativenergy.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "100Toni",
+    "url": "100toni.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "101045",
+    "url": "101045.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10802C 3",
+    "url": "10802c-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1091Ec",
+    "url": "1091ec.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Abcf 4",
+    "url": "10abcf-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Bcae",
+    "url": "10bcae.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10F839 28",
+    "url": "10f839-28.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Kfeet",
+    "url": "10kfeet.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Minuteworkshop",
+    "url": "10minuteworkshop.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Th Avenue West Studio",
+    "url": "10th-avenue-west-studio.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Thplanetlongmont",
+    "url": "10thplanetlongmont.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Thplanetwebstore",
+    "url": "10thplanetwebstore.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "11 Degrees South",
+    "url": "11-degrees-south.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "113926 A0",
+    "url": "113926-a0.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "113Cbb",
+    "url": "113cbb.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "114D82",
+    "url": "114d82.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "119Ddb 4",
+    "url": "119ddb-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "11D299 4D",
+    "url": "11d299-4d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "11Lessons",
+    "url": "11lessons.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "11V9Sq Bb",
+    "url": "11v9sq-bb.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "120Ab4 07",
+    "url": "120ab4-07.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12129B 4",
+    "url": "12129b-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1224Da 16",
+    "url": "1224da-16.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "123Compreagora",
+    "url": "123compreagora.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "124316",
+    "url": "124316.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12799A 52",
+    "url": "12799a-52.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "128F0D 3",
+    "url": "128f0d-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "129698 85",
+    "url": "129698-85.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1297 Tabontech Turnkey Sirius Choice",
+    "url": "1297-tabontech-turnkey-sirius-choice.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12A306 2",
+    "url": "12a306-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12B548 1F",
+    "url": "12b548-1f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12Bc4A 20",
+    "url": "12bc4a-20.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12Dae4 6F",
+    "url": "12dae4-6f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12Gnap Nx",
+    "url": "12gnap-nx.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12Th State",
+    "url": "12th-state.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12Voltvillains",
+    "url": "12voltvillains.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "13 Hippo",
+    "url": "13-hippo.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "134D12 5E",
+    "url": "134d12-5e.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "135D4D B6",
+    "url": "135d4d-b6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "13Grhh 11",
+    "url": "13grhh-11.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "146Db7 22",
+    "url": "146db7-22.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "147572",
+    "url": "147572.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "147984",
+    "url": "147984.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "14Fad4 2",
+    "url": "14fad4-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "152Ba6",
+    "url": "152ba6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1536F7 2A",
+    "url": "1536f7-2a.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "15514A Fc",
+    "url": "15514a-fc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1567B5 2D",
+    "url": "1567b5-2d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1588Bc",
+    "url": "1588bc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1588E2 4",
+    "url": "1588e2-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "158E42 2",
+    "url": "158e42-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "15A1Cc 2",
+    "url": "15a1cc-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "16B2C2",
+    "url": "16b2c2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "16Bbc9 8D",
+    "url": "16bbc9-8d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "16Bd6C 59",
+    "url": "16bd6c-59.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "16F4Ef",
+    "url": "16f4ef.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "171597 2",
+    "url": "171597-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1724Be E4",
+    "url": "1724be-e4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "175Dbf 33",
+    "url": "175dbf-33.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "176012",
+    "url": "176012.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "177Ea8",
+    "url": "177ea8.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "17886C 08",
+    "url": "17886c-08.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "17Cb2A 93",
+    "url": "17cb2a-93.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1823B5 74",
+    "url": "1823b5-74.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "182E16 02",
+    "url": "182e16-02.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1853Dd",
+    "url": "1853dd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18771D",
+    "url": "18771d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "187Ba4 2",
+    "url": "187ba4-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "188D6D 75",
+    "url": "188d6d-75.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18A01B 2",
+    "url": "18a01b-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18B525 3",
+    "url": "18b525-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18C777",
+    "url": "18c777.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18D910 F6",
+    "url": "18d910-f6.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18Delpero",
+    "url": "18delpero.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18Dhtw Yn",
+    "url": "18dhtw-yn.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18E7B3",
+    "url": "18e7b3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18Eb25 60",
+    "url": "18eb25-60.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "191D1V N2",
+    "url": "191d1v-n2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1920 Fashion Dress",
+    "url": "1920-fashion-dress.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Marlas Fashions. Us",
+    "url": "marlas-fashions.-us.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Www.13Grhh 11",
+    "url": "www.13grhh-11.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "004896",
+    "url": "004896.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "007Airsoft",
+    "url": "007airsoft.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "007Jbb",
+    "url": "007jbb.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0085B4",
+    "url": "0085b4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "009871",
+    "url": "009871.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0099Ad",
+    "url": "0099ad.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00B586 2",
+    "url": "00b586-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "00E42B 2",
+    "url": "00e42b-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "012Cc8 5",
+    "url": "012cc8-5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "017Shop",
+    "url": "017shop.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "01Bac0",
+    "url": "01bac0.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "023C55",
+    "url": "023c55.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02B37F",
+    "url": "02b37f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "02F8Bc 3",
+    "url": "02f8bc-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0334Da",
+    "url": "0334da.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "03C591 7",
+    "url": "03c591-7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04190E 4",
+    "url": "04190e-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "043492",
+    "url": "043492.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0495Fb",
+    "url": "0495fb.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "04D4Cc 2",
+    "url": "04d4cc-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "050837",
+    "url": "050837.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "052Bf6 3",
+    "url": "052bf6-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "054E61 3",
+    "url": "054e61-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0553Ef 2",
+    "url": "0553ef-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "057297",
+    "url": "057297.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "059024",
+    "url": "059024.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "059252 3",
+    "url": "059252-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "05A4F2 2",
+    "url": "05a4f2-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "062997 2",
+    "url": "062997-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "06Fc19",
+    "url": "06fc19.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "06Vodka",
+    "url": "06vodka.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "070Bf5",
+    "url": "070bf5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "071172 2",
+    "url": "071172-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "077Fc2 4",
+    "url": "077fc2-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "079Ef7",
+    "url": "079ef7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "07E820",
+    "url": "07e820.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "07F7F1",
+    "url": "07f7f1.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "08774B 2",
+    "url": "08774b-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "088B89",
+    "url": "088b89.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "08C946",
+    "url": "08c946.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "091Cac 2",
+    "url": "091cac-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0932B8 2",
+    "url": "0932b8-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "093325 3",
+    "url": "093325-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0989C5 4",
+    "url": "0989c5-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "09Dd3B 2",
+    "url": "09dd3b-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "09F90E 3",
+    "url": "09f90e-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "09Fc1F 2",
+    "url": "09fc1f-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A0549",
+    "url": "0a0549.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A45A3 2",
+    "url": "0a45a3-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A6F24",
+    "url": "0a6f24.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A8470 2",
+    "url": "0a8470-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A9A93",
+    "url": "0a9a93.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0A9D08",
+    "url": "0a9d08.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Ac79A",
+    "url": "0ac79a.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Ac899 5",
+    "url": "0ac899-5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Bab5D 3",
+    "url": "0bab5d-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0C0A35 2",
+    "url": "0c0a35-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0C3A72 2",
+    "url": "0c3a72-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0C6D15 2",
+    "url": "0c6d15-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0D2De7 2",
+    "url": "0d2de7-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0D5Be3 2",
+    "url": "0d5be3-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0D9550",
+    "url": "0d9550.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E0084",
+    "url": "0e0084.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E35Cf 4",
+    "url": "0e35cf-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E6De0 2",
+    "url": "0e6de0-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E7790 2",
+    "url": "0e7790-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E7A3F",
+    "url": "0e7a3f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E8C62",
+    "url": "0e8c62.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0E8C89",
+    "url": "0e8c89.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F02B1 3",
+    "url": "0f02b1-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F0Af0",
+    "url": "0f0af0.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F467D 5",
+    "url": "0f467d-5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F496E",
+    "url": "0f496e.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F8808 3",
+    "url": "0f8808-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F8Ade 5",
+    "url": "0f8ade-5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F9Bba",
+    "url": "0f9bba.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0F9Bbd",
+    "url": "0f9bbd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Fac82",
+    "url": "0fac82.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0Fc11B 3",
+    "url": "0fc11b-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "0X52Shopifyhackerone2",
+    "url": "0x52shopifyhackerone2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1 Granary",
+    "url": "1-granary.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1 To 1 Music",
+    "url": "1-to-1-music.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1 Top Tools",
+    "url": "1-top-tools.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10 0 Merch",
+    "url": "10-0-merch.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10 And 10 Garden Centre",
+    "url": "10-and-10-garden-centre.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10 Speed Coffee",
+    "url": "10-speed-coffee.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1000 Words Photography Magazine",
+    "url": "1000-words-photography-magazine.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1000Errors",
+    "url": "1000errors.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1000Objekte",
+    "url": "1000objekte.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1001 Gewuerze",
+    "url": "1001-gewuerze.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10090D",
+    "url": "10090d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "100Banch",
+    "url": "100banch.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "100Blumen",
+    "url": "100blumen.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "100Bon Aroma",
+    "url": "100bon-aroma.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "100Mb",
+    "url": "100mb.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "100Naturals",
+    "url": "100naturals.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "100Senses",
+    "url": "100senses.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "100Things Inc",
+    "url": "100things-inc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "100Yrs100X",
+    "url": "100yrs100x.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "101 Films Store",
+    "url": "101-films-store.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "101Mainstreet",
+    "url": "101mainstreet.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "101Wrif",
+    "url": "101wrif.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "103A07 3",
+    "url": "103a07-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "103Collection",
+    "url": "103collection.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "103Rdstshop",
+    "url": "103rdstshop.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "104187 3",
+    "url": "104187-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10506A",
+    "url": "10506a.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1050Ba 3",
+    "url": "1050ba-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "107902 4",
+    "url": "107902-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10837D",
+    "url": "10837d.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10C37B 3",
+    "url": "10c37b-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Ce93",
+    "url": "10ce93.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Corsocomo",
+    "url": "10corsocomo.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10D189 3",
+    "url": "10d189-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10F678",
+    "url": "10f678.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Fitness",
+    "url": "10fitness.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Keiya Com",
+    "url": "10keiya-com.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Tal",
+    "url": "10tal.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Xhealthcenters",
+    "url": "10xhealthcenters.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "10Yc",
+    "url": "10yc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "11 Day Power Play",
+    "url": "11-day-power-play.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "11 Magnolia Lane",
+    "url": "11-magnolia-lane.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "110 Fitness Llc",
+    "url": "110-fitness-llc.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1111Fragrance",
+    "url": "1111fragrance.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1116A5 2",
+    "url": "1116a5-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "113Bc8",
+    "url": "113bc8.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "113E43 2",
+    "url": "113e43-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1201 Labs",
+    "url": "1201-labs.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1201 Shoetique And Accessories",
+    "url": "1201-shoetique-and-accessories.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1208 Foundation",
+    "url": "1208-foundation.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "123 Farm",
+    "url": "123-farm.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "123456 48",
+    "url": "123456-48.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "123Spirits",
+    "url": "123spirits.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "123Treats",
+    "url": "123treats.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "123Uhp",
+    "url": "123uhp.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "123West",
+    "url": "123west.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "127E22",
+    "url": "127e22.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12A9Ba 4",
+    "url": "12a9ba-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12B344 2",
+    "url": "12b344-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12Be87 2",
+    "url": "12be87-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12C7B7",
+    "url": "12c7b7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12Da8F",
+    "url": "12da8f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12Elevenrecords",
+    "url": "12elevenrecords.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12F153",
+    "url": "12f153.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "12Percentdrip",
+    "url": "12percentdrip.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "13 Stars Hot Sauce",
+    "url": "13-stars-hot-sauce.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1300Shadecloth",
+    "url": "1300shadecloth.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "131A78 2",
+    "url": "131a78-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1320Performance",
+    "url": "1320performance.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "134A6B 2",
+    "url": "134a6b-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "13526A 2",
+    "url": "13526a-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "137F5F",
+    "url": "137f5f.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "13Central",
+    "url": "13central.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "13D9B4",
+    "url": "13d9b4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "13Dc61 3",
+    "url": "13dc61-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "13Puntadas",
+    "url": "13puntadas.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "13To24",
+    "url": "13to24.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "14 Hill Gift Shop",
+    "url": "14-hill-gift-shop.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "14B3A9",
+    "url": "14b3a9.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "14Bcf9",
+    "url": "14bcf9.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "14Bisness",
+    "url": "14bisness.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "14Efff 3",
+    "url": "14efff-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "14Ender Shop",
+    "url": "14ender-shop.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "14Strings",
+    "url": "14strings.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1500Cms",
+    "url": "1500cms.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1524De 3",
+    "url": "1524de-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1535A4 3",
+    "url": "1535a4-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1560Bf",
+    "url": "1560bf.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "158Studioboutique",
+    "url": "158studioboutique.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "15Aa09",
+    "url": "15aa09.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "15Af49 4",
+    "url": "15af49-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "15Aoutbox",
+    "url": "15aoutbox.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "15B1F8 2",
+    "url": "15b1f8-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "15B8D4",
+    "url": "15b8d4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "15Mi",
+    "url": "15mi.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "15Saints",
+    "url": "15saints.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1665 Premium Eyelashes",
+    "url": "1665-premium-eyelashes.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "173944 2",
+    "url": "173944-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1740Beardbalm",
+    "url": "1740beardbalm.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1765B7",
+    "url": "1765b7.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1770 Larc Tours",
+    "url": "1770-larc-tours.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1776Foundation",
+    "url": "1776foundation.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "177Fcf 2",
+    "url": "177fcf-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "17872E",
+    "url": "17872e.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "179983 5",
+    "url": "179983-5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1800Calculators",
+    "url": "1800calculators.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1800Gifters",
+    "url": "1800gifters.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1801 Handcrafted",
+    "url": "1801-handcrafted.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1810 Creative",
+    "url": "1810-creative.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "182A03 3",
+    "url": "182a03-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "182Ebf",
+    "url": "182ebf.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1836 Country Store",
+    "url": "1836-country-store.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1859 Northwest",
+    "url": "1859-northwest.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "185A3C 4",
+    "url": "185a3c-4.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "185D6D 2",
+    "url": "185d6d-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "185Ef5",
+    "url": "185ef5.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "187740 2",
+    "url": "187740-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1889B3 2",
+    "url": "1889b3-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "188B29 3",
+    "url": "188b29-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18Herbs Com",
+    "url": "18herbs-com.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "18Heures48",
+    "url": "18heures48.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "19 Ideas",
+    "url": "19-ideas.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1908Brands",
+    "url": "1908brands.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1954Bybd",
+    "url": "1954bybd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1961Coffee",
+    "url": "1961coffee.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1971Belgium",
+    "url": "1971belgium.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "198 Methods",
+    "url": "198-methods.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1987Supply",
+    "url": "1987supply.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "19C97D 2",
+    "url": "19c97d-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "19E8D8",
+    "url": "19e8d8.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "19Thholecustomshop",
+    "url": "19thholecustomshop.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1A467B Bf",
+    "url": "1a467b-bf.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1A4A93 3",
+    "url": "1a4a93-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1A508A",
+    "url": "1a508a.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Ace55",
+    "url": "1ace55.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1B0B59 3",
+    "url": "1b0b59-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1B37Ef 2",
+    "url": "1b37ef-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Bandid",
+    "url": "1bandid.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Bfaae",
+    "url": "1bfaae.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1C5375",
+    "url": "1c5375.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Delarose",
+    "url": "1delarose.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1E2221 2",
+    "url": "1e2221-2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Fa37B",
+    "url": "1fa37b.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Fbe6B 3",
+    "url": "1fbe6b-3.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1First Publishing",
+    "url": "1first-publishing.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Kuti Com",
+    "url": "1kuti-com.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Ofaknd",
+    "url": "1ofaknd.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Planet Carbon Offset",
+    "url": "1planet-carbon-offset.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "1Stopclickshop",
+    "url": "1stopclickshop.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "2 Fab Tees",
+    "url": "2-fab-tees.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "2 Scale Fabrications",
+    "url": "2-scale-fabrications.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "20For20 Anchor Merchandise",
+    "url": "20for20-anchor-merchandise.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "21 Street Club Official",
+    "url": "21-street-club-official.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "21Cb53",
+    "url": "21cb53.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "22199",
+    "url": "22199.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "225Ea2",
+    "url": "225ea2.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "24 7 Daddyhood",
+    "url": "24-7-daddyhood.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "247Drums",
+    "url": "247drums.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Www.101Mainstreet",
+    "url": "www.101mainstreet.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Www.13Puntadas",
+    "url": "www.13puntadas.myshopify.com",
+    "category": "discovered"
+  },
+  {
+    "name": "Www.1987Supply",
+    "url": "www.1987supply.myshopify.com",
+    "category": "discovered"
+  }
 ]
