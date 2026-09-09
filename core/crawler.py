@@ -79,7 +79,7 @@ async def crawl_store_list(store_urls: list[str], batch_size: int = 20) -> dict:
 
 
 async def crawl_curated_stores():
-    """Crawl all stores from stores.json and index them."""
+    """Crawl all stores from stores.json and index them. Skips already-indexed stores first."""
     global _crawl_running, _crawl_status
 
     if _crawl_running:
@@ -99,11 +99,29 @@ async def crawl_curated_stores():
             stores = json.load(f)
         store_urls = [s["url"] for s in stores]
 
-        # Also add stores to DB
+        # Get already-indexed domains from DB to skip them on first pass
+        already_indexed = set()
+        if DATABASE_URL:
+            try:
+                pool = await get_pool()
+                async with pool.acquire() as conn:
+                    rows = await conn.fetch("SELECT domain FROM stores WHERE status = 'active'")
+                    already_indexed = {r["domain"] for r in rows}
+            except Exception:
+                pass
+
+        # Prioritize: NEW stores first, already-indexed stores last
+        new_stores = [u for u in store_urls if u not in already_indexed]
+        old_stores = [u for u in store_urls if u in already_indexed]
+        ordered_urls = new_stores + old_stores
+
+        print(f"Crawl order: {len(new_stores)} new stores first, then {len(old_stores)} already-indexed")
+
+        # Register all stores as pending
         for s in stores:
             await upsert_store(s["url"], s.get("name", ""), s.get("category", "general"))
 
-        result = await crawl_store_list(store_urls, batch_size=20)
+        result = await crawl_store_list(ordered_urls, batch_size=20)
         return result
     finally:
         _crawl_running = False
