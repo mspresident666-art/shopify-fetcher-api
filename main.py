@@ -5,7 +5,7 @@ from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 
-from routers import health, discover, fetch, bulk, view
+from routers import health, discover, fetch, bulk, view, search
 
 # ── Rate limiter setup ────────────────────────────────────────────────────────
 limiter = Limiter(key_func=get_remote_address, default_limits=["60/minute"])
@@ -41,6 +41,7 @@ app.include_router(discover.router, prefix="/api/v1", tags=["Discover"])
 app.include_router(fetch.router, prefix="/api/v1", tags=["Fetch"])
 app.include_router(bulk.router, prefix="/api/v1", tags=["Bulk"])
 app.include_router(view.router, prefix="/api/v1", tags=["View"])
+app.include_router(search.router, prefix="/api/v1", tags=["Search"])
 
 
 # ── Root redirect ─────────────────────────────────────────────────────────────
