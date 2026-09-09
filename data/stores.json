@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Allbirds",
+    "url": "allbirds.com",
+    "domain": "allbirds.myshopify.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Gymshark",
+    "url": "gymshark.com",
+    "domain": "gymshark.myshopify.com",
+    "category": "fashion"
+  },
+  {
+    "name": "MVMT Watches",
+    "url": "mvmtwatches.com",
+    "domain": "mvmt.myshopify.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Chubbies",
+    "url": "chubbiesshorts.com",
+    "domain": "chubbies-shorts.myshopify.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Bombas",
+    "url": "bombas.com",
+    "domain": "bombas.myshopify.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Kylie Cosmetics",
+    "url": "kyliecosmetics.com",
+    "domain": "kylie-cosmetics.myshopify.com",
+    "category": "beauty"
+  },
+  {
+    "name": "ColourPop",
+    "url": "colourpop.com",
+    "domain": "colourpop.myshopify.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Morphe",
+    "url": "morphe.com",
+    "domain": "morphebrushes.myshopify.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Fenty Beauty",
+    "url": "fentybeauty.com",
+    "domain": "fenty-beauty.myshopify.com",
+    "category": "beauty"
+  },
+  {
+    "name": "Death Wish Coffee",
+    "url": "deathwishcoffee.com",
+    "domain": "death-wish-coffee.myshopify.com",
+    "category": "food"
+  },
+  {
+    "name": "Bulletproof",
+    "url": "bulletproof.com",
+    "domain": "bulletproof.myshopify.com",
+    "category": "food"
+  },
+  {
+    "name": "Ridge Wallet",
+    "url": "ridge.com",
+    "domain": "ridge.myshopify.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Pura Vida",
+    "url": "puravidabracelets.com",
+    "domain": "pura-vida-bracelets.myshopify.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Tattly",
+    "url": "tattly.com",
+    "domain": "tattly.myshopify.com",
+    "category": "accessories"
+  },
+  {
+    "name": "Ratio Coffee",
+    "url": "ratiocoffee.com",
+    "domain": "ratio-coffee.myshopify.com",
+    "category": "electronics"
+  },
+  {
+    "name": "Nomad",
+    "url": "nomadgoods.com",
+    "domain": "nomad-goods.myshopify.com",
+    "category": "electronics"
+  },
+  {
+    "name": "Manitobah Mukluks",
+    "url": "manitobah.ca",
+    "domain": "manitobah-mukluks.myshopify.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Taylor Stitch",
+    "url": "taylorstitch.com",
+    "domain": "taylor-stitch.myshopify.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Outdoor Voices",
+    "url": "outdoorvoices.com",
+    "domain": "outdoor-voices.myshopify.com",
+    "category": "fashion"
+  },
+  {
+    "name": "Beardbrand",
+    "url": "beardbrand.com",
+    "domain": "beardbrand.myshopify.com",
+    "category": "beauty"
+  }
+]
